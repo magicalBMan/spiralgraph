@@ -1,0 +1,41 @@
+canvas {
+    background: #222;
+}
+
+body {
+    margin: 1px;
+}
+
+html {
+    overflow: hidden;
+    margin: 0;
+}
+input[type='range'] {
+    -webkit-appearance: none;
+    position: absolute;
+    left: 10px;
+    width: 20%;
+    height: 7px;
+    background: #555;
+    outline: none;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #AAA;
+    cursor: pointer;
+}
+input[type='range']::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+#go {
+    position: absolute;
+    left: 7px;
+}
